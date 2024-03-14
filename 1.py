@@ -106,7 +106,8 @@ while True:
     if customer_question_raw is not None:
         customer_question = customer_question_raw.lower()  # Convert to lowercase for comparison
         
-        if "thank you" in customer_question or "bye" in customer_question:
+        # if "thank you" in customer_question or "bye" in customer_question:
+        if "bye" in customer_question:
             summary = generate_summary(chat_history)
             print("summary>>>>>>>>>>", summary)
             text_to_speech("You're welcome! Goodbye!")
