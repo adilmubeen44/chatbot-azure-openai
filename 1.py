@@ -7,14 +7,17 @@ import azure.cognitiveservices.speech as speechsdk
 import openai
 
 # Azure Speech configuration
-SPEECH_KEY = "55d11eb5446d48caa11abbd23a6abddf"
-SPEECH_REGION = "eastus"
+# SPEECH_KEY = "55d11eb5446d48caa11abbd23a6abddf"
+# SPEECH_REGION = "eastus"
+SPEECH_KEY = SPEECH_KEY
+SPEECH_REGION = SPEECH_REGION
 
 import os
 
 import openai
-openai.api_key = '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'
-os.environ["OPENAI_API_KEY"] = "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"
+# openai.api_key = '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'
+# os.environ["OPENAI_API_KEY"] = "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"
+OPENAI_API_KEY = OPENAI_API_KEY
 
 # Initialize OpenAI client
 #openai_client = OpenAI()
